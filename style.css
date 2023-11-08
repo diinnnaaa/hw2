@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container{
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-top: 30px;
+  }
+  .logo-header span{
+    color:rgb(155, 224, 145);
+  
+  }
+  .header-item ul{
+    display: flex;
+    list-style: none;
+  }
+  .header-item ul li {
+    padding-right: 40px;
+    position: relative;
+   
+  }
+ 
+  .btn button{
+    padding: 17px;
+    border: 1px solid rgb(155, 224, 145);
+    border-radius: 30px;
+    position: relative;
+
+  }
+  .btn button:hover{
+   background-color: rgb(155, 224, 145);
+   bottom: 4px;
+  }
+  
+  .section-1{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .text-section-1{
+    padding: 30px;
+    font-size: 40px;
+  }
+  .text-section-1 button{
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    position: relative;
+  }
+  .text-section-1 button:hover{
+    bottom: 3px;
+    background-color: rgb(155, 224, 145);
+    color: green;
+  }
